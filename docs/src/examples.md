@@ -503,7 +503,7 @@ unquoted field,unquoted field with "inner quotes"
 
 file = CSV.File(IOBuffer(data); quotechar='"', escapechar='"')
 
-file = CSV.File(IOBuffer(data); openquotechar='"' closequotechar='"', escapechar='"')
+file = CSV.File(IOBuffer(data); openquotechar='"', closequotechar='"', escapechar='"')
 ```
 
 
